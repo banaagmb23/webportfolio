@@ -15,7 +15,7 @@
 
 	<title>Capstone 1</title>
 </head>
-<body class="font-family: 'Roboto', sans-serif;">
+<body>
 
 
 	<!-- NAV BAR ------------------------------------------------------->
@@ -44,41 +44,34 @@
 	<!-- NAV BAR END ------------------------------------------------------->
 
 
-<p>ABOUT ME</p>
-
-
 <!-- CONTACT ME MODAL ------------------------------------------------------------ -->
 
-	<h2 class="text-center mt-3 text-dark">Contact Me</h2>
 
-	<div class="bg-primary mt-5 container-fluid p-3 justify-content-center col-sm-12 col-md-8 col-lg-8 col-xl-4">
+	<h2 class="text-center mt-5 text-dark">Contact Me</h2>
+
+	<div class=" mt-3 container-fluid p-3 justify-content-center col-sm-12 col-md-8 col-lg-8 col-xl-4">
 
 	<form>
 		<label for="full_name">Name</label>
 		<input type="text" name="full_name" id="full_name" required class="container-fluid">
 
-		<label for="email_ad">Email Address</label>
+		<label for="email_ad" class="mt-2">Email Address</label>
 		<input type="text" name="email_ad" id="email_ad" required class="container-fluid">
 
-		<label for="contact_number">Contact Number</label>
+		<label for="contact_number" class="mt-2">Contact Number</label>
 		<input type="number" name="contact_number" id="contact_number" required class="container-fluid">
 
-		<label class="mb-3">Concern</label>
-		<select name="concern" id="concern" class="container-fluid">
-			<option value="quotation">Quotation</option>
-			<option value="appointment">Appointment</option>
-			<option value="follow-up">Follow-up</option>
-		</select>
+	
 
-		<label class="mb-3" for="message">Message</label>
+		<label class="mb-2 mt-2" for="message">Message</label>
 		<textarea name="notes" rows="5" id="notes" class="container-fluid"></textarea>
 
 
 		<!-- Button trigger modal -->
 
 
-		<div class="text-center">
-		<button class="bg-dark text-light" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+		<div class="text-center mt-3">
+		<button class="bg-danger text-dark p-2" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
 		  Send Email
 		</button>
 
@@ -92,7 +85,7 @@
 
 		      <div class="modal-header">
 		        <!-- <h5 class="modal-title" id="exampleModalLabel">Message Sent</h5> -->
-			       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			       <button type="button" class="close bg-danger" data-dismiss="modal" aria-label="Close">
 		          <span aria-hidden="true">&times;</span>
 		        </button>
 		      </div>
