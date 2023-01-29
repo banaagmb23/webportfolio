@@ -6,11 +6,42 @@
 
 }
 
-/*NAV BAR*/
+body{
+
+  background-image: url(./images/bg.png);
+}
+
+p{
+  font-family: 'monospace', sans-serif;
+  letter-spacing: .15em
+}
+
+h1{
+   font-family: 'Orbitron', sans-serif;
+   font-weight: 800;
+}
 
 
 
-/* VH 1 --------------------------------*/
+/*NAV BAR -------------------------------------*/
+
+
+
+.navbar {
+
+  font-family: 'Oswald', sans-serif;
+}
+
+
+
+/*NAV BAR -------------------------------------*/
+
+
+
+
+
+
+/* LANDING 1 --------------------------------*/
 
 .landing1 {
   width: 100%;
@@ -84,18 +115,17 @@
 
 
 
-/* VH 2 --------------------------------*/
+/* INTRO--------------------------------*/
 
 
 .intro{
+
   min-height: 50vh;
-  margin-top: 2rem;
-  miwidth: 50vw;
+  min-width: 50vw;
+  position: relative;
+
+
 }
-
-
-
-
 
 strong{
   color: yellow;
@@ -105,22 +135,34 @@ strong{
 
 
 
-
-
-
-
-
-
+/*LANDING 2 -------------------------------*/
 
 
 
 .landing2 {
-  width: 100%;
   min-height: 100vh;
+  width: 100%;
   background-image: url(./images/bg.png);
   background-size: cover;
-  position: relative;
-/*  padding: 100px 0 30px 0;*/
+}
+
+/* MY TOOLS -------------------------------*/
+
+
+#myTools {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(./images/bg.png);
+  background-size: cover;
+}
+
+
+
+#contactMe {
+  min-height: 50vh;
+  width: 100%;
+  background-image: url(./images/bg.png);
+  background-size: cover;
 }
 
 
@@ -128,20 +170,8 @@ strong{
 
 
 
-.navbar {
-
-	font-family: 'Oswald', sans-serif;
-}
-
-body{
-
-	background-image: url(./images/bg.png);
-}
 
 
 
-p{
-	font-family: 'monospace', sans-serif;
-	letter-spacing: .15em
-}
+
 
